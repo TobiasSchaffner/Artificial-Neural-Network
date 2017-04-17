@@ -1,0 +1,14 @@
+# Start value Files
+
+# User has to take care him self, that the start value set fits to the network initialised.
+# One Neuron per line in format "value, weight to first neuron in next column, weight to second neuron in next column..."
+# First line is first neuron in first column, second line is second neuron in first column...
+# Lines with # in the beginning and empty lines will be ignored.
+
+# This is a example for a 2 input * 3 hidden  * 1 output Network
+1,0.8,0.4,0.3
+1,0.2,0.9,0.5
+0,0.3
+0,0.5
+0,0.9
+0

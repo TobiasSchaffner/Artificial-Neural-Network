@@ -1,0 +1,13 @@
+# Trainingfile
+
+# Each line is one training iteration.
+# Values are comma separated in format input[0],input[1],...,input[n-1,output[0],...,output[n-1]
+# Lines with # in the beginning and empty lines will be ignored.
+
+# This is a example for a Trainingfile that will be executed 10.000 times
+*100000
+0,0,0
+0,1,1
+1,0,1
+1,1,0
+
